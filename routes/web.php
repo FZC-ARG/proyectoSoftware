@@ -1,10 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+/*
 Route::get('/', function () {
     return "Bienvenido a la Pagina Principal";
 });
+*/
+Route::get('/', HomeController::class);
 
 //AGREGANDO NUEVA RUTA
 Route::get('practicas-preprofesionales', function(){
